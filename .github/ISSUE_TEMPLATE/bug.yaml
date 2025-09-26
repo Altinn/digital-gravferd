@@ -1,0 +1,21 @@
+name: 🐛 Bug Report
+description: Report something that isn't working as expected
+labels: [kind/bug]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Explain the problem clearly.
+      placeholder: "When I do X, I expected Y, but got Z."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: How can we see the bug?
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. See error

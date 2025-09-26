@@ -1,0 +1,18 @@
+name: ❓ Question
+description: Ask a question about using or understanding the project
+labels: [kind/question]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Your Question
+      description: What's on your mind? Be as clear as you can.
+      placeholder: "How do I...?"
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Extra context
+      description: Add any details, code snippets, or links that might help.
+      placeholder: "I tried this... I expected that..."
