@@ -1,6 +1,8 @@
 name: 🐛 Bug Report
 description: Report something that isn't working as expected. Be mindful of not sharing sensitive information.
 labels: [kind/bug]
+type: Bug
+projects: ["Altinn/170"]
 body:
   - type: textarea
     id: description
